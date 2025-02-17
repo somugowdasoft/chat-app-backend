@@ -16,7 +16,7 @@ connectDB();
 // middleware
 app.use(bodyparser.json());
 app.use(cors({
-    origin: "http://localhost:3001"
+    origin: "https://my-awesome-chat-app.netlify.app"
 }));
 
 // router
